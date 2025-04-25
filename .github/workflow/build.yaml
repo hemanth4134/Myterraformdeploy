@@ -9,8 +9,8 @@ phases:
       - apt-get install docker
       - apt-get install buildx ls
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $539935451710.dkr.ecr.us-east-1.amazonaws.com/hcldemo
-      - REPOSITORY_URI=539935451710.dkr.ecr.us-east-1.amazonaws.com/hcldemo
+      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin $720682856456.dkr.ecr.us-east-1.amazonaws.com/hcldemo
+      - REPOSITORY_URI=720682856456.dkr.ecr.us-east-1.amazonaws.com/hcldemo
   build:
     commands:
       - echo Build started on `date`
